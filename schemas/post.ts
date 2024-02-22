@@ -45,8 +45,18 @@ export default defineType({
       type: 'datetime',
     }),
     defineField({
-      name: 'body',
-      title: 'Body',
+      name: 'english',
+      title: 'Body English',
+      type: 'blockContent',
+    }),
+    defineField({
+      name: 'amharic',
+      title: 'Body Amharic',
+      type: 'blockContent',
+    }),
+    defineField({
+      name: 'oromigna',
+      title: 'Body Oromigna',
       type: 'blockContent',
     }),
     defineField
